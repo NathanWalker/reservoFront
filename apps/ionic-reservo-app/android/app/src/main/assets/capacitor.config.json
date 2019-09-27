@@ -1,0 +1,6 @@
+{
+  "appId": "com.example.app",
+  "appName": "reservoapp",
+  "bundledWebRuntime": false,
+  "webDir": "src"
+}
