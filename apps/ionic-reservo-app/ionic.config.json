@@ -1,0 +1,8 @@
+{
+  "name": "reservoapp",
+  "type": "angular",
+  "integrations": {
+    "capacitor": {}
+  },
+  "app_id": ""
+}
