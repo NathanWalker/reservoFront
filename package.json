@@ -25,6 +25,7 @@
     "help": "nx help",
     "clean": "npx rimraf -- hooks node_modules package-lock.json && npm i",
     "start.web.reservo-web": "nx serve web-reservo-web",
+    "build.web.reservo-web": "nx build web-reservo-web",
     "build.ionic.reservo-app": "nx build ionic-reservo-app",
     "prepare.ionic.reservo-app": "npm run clean && npm run clean.ionic.reservo-app && npm run build.ionic.reservo-app",
     "prepare.ionic.reservo-app.ios": "npm run prepare.ionic.reservo-app && cd apps/ionic-reservo-app && npm run cap.add.ios",
