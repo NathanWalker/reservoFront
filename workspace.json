@@ -22,7 +22,9 @@
               "testing/tsconfig.libs.json",
               "testing/tsconfig.libs.spec.json"
             ],
-            "exclude": ["**/node_modules/**"]
+            "exclude": [
+              "**/node_modules/**"
+            ]
           }
         }
       }
@@ -48,7 +50,9 @@
               "testing/tsconfig.xplat.json",
               "testing/tsconfig.xplat.spec.json"
             ],
-            "exclude": ["**/node_modules/**"]
+            "exclude": [
+              "**/node_modules/**"
+            ]
           }
         }
       }
@@ -134,7 +138,10 @@
               "apps/web-reservo-web/tsconfig.app.json",
               "apps/web-reservo-web/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!apps/web-reservo-web/**"]
+            "exclude": [
+              "**/node_modules/**",
+              "!apps/web-reservo-web/**"
+            ]
           }
         },
         "test": {
@@ -168,8 +175,13 @@
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
-            "tsConfig": ["apps/web-reservo-web-e2e/tsconfig.e2e.json"],
-            "exclude": ["**/node_modules/**", "!apps/web-reservo-web-e2e/**"]
+            "tsConfig": [
+              "apps/web-reservo-web-e2e/tsconfig.e2e.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!apps/web-reservo-web-e2e/**"
+            ]
           }
         }
       }
@@ -302,7 +314,9 @@
               "apps/ionic-reservo-app/tsconfig.spec.json",
               "apps/ionic-reservo-app/e2e/tsconfig.json"
             ],
-            "exclude": ["**/node_modules/**"]
+            "exclude": [
+              "**/node_modules/**"
+            ]
           }
         },
         "e2e": {
